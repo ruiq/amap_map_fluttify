@@ -568,7 +568,7 @@ class AmapController with WidgetsBindingObserver, _Private {
   Future<void> setCenterCoordinate(
     double lat,
     double lng, {
-    double zoomLevel,
+    double zoomLevel = 3,
     double bearing,
     double tilt,
     bool animated = true,
